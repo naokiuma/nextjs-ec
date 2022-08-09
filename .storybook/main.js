@@ -11,5 +11,6 @@ module.exports = {
   "framework": "@storybook/react",
   "core": {
     "builder": "@storybook/builder-webpack5"
-  }
+  },
+  "staticDirs":['public'],//静的ファイルの置き場所。.storybookの下で指定。
 }
